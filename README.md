@@ -40,3 +40,26 @@ Activer : source venvFilRouge/bin/activate
  
 Sous Windows : venvFilRouge\Scripts\activate
 
+###################### GITHUB ###########################
+Créer .gitignore :
+
+nano .gitignore
+Contenu :
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.pytest_cache/
+Premier commit :
+
+git add .
+git commit -m "Initialisation du projet ML Churn"
+Créer la branche develop :
+
+git branch -M main
+git checkout -b develop
+Créer une branche fonctionnalité :
+
+##########################################
